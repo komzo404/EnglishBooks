@@ -4,10 +4,10 @@ import TelegramBot from "node-telegram-bot-api";
 
 dotenv.config();
 const app=express();
+ 
 
 
-
-export function strrone(bot) {
+export function str1(bot) {
     bot.on("message", (msg) => {
         const chatId = msg.chat.id;
         const text = msg.text;
